@@ -1,0 +1,18 @@
+command: 
+
+/Applications/Ethereum\ Wallet.app/contents/MacOS/Ethereum\ Wallet --rpc chaindata/geth.ipc
+
+logs:
+
+[2018-09-25T11:48:29.973] [INFO] Settings - Running in production mode: true
+[2018-09-25T11:48:30.000] [INFO] EthereumNode - undefined null 'light'
+[2018-09-25T11:48:30.001] [INFO] EthereumNode - Defaults loaded: geth main light
+[2018-09-25T11:48:30.050] [INFO] main - Starting in Wallet mode
+[2018-09-25T11:48:30.164] [INFO] Db - Creating db: /Users/pshyamsu/Library/Application Support/Ethereum Wallet/mist.lokidb
+[2018-09-25T11:48:30.174] [INFO] Db - Loading db: /Users/pshyamsu/Library/Application Support/Ethereum Wallet/mist.lokidb
+[2018-09-25T11:48:30.181] [INFO] Windows - Creating commonly-used windows
+[2018-09-25T11:48:30.182] [INFO] Windows - Create secondary window: loading, owner: notset
+2018-09-25 11:48:30.210 Ethereum Wallet[3186:2967611] *** WARNING: Textured window <AtomNSWindow: 0x7fd19d3ac7b0> is getting an implicitly transparent titlebar. This will break when linking against newer SDKs. Use NSWindow's -titlebarAppearsTransparent=YES instead.
+[2018-09-25T11:48:30.282] [INFO] updateChecker - Check for update...
+[2018-09-25T11:48:33.090] [INFO] Windows - Create primary window: main, owner: notset
+[2018-09-25T11:48:33.096] [INFO] Windows - Create primary window: splash, owner: notset
