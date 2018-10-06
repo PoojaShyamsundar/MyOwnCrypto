@@ -1,0 +1,34 @@
+pragma solidity ^0.4.21;
+
+contract MyKart {
+    address buyer;
+    address seller;
+    
+    event BuyerPaid();
+    event SellerShipped();
+    event ItemReceived();
+    
+    function MyKart(address b, address s) public {
+        buyer = b;
+        seller = s;
+    }
+    
+    function PayForItem() payable public {
+        emit BuyerPaid(); 
+        
+        // msg.value
+    }
+    
+    function ItemShipped() public {
+        require(msg.sender == seller);
+        emit SellerShipped();
+    }
+    
+    function ItemReceivedFn() public {
+        require(msg.sender == buyer);
+        
+        emit ItemReceived();
+        
+        seller.transfer(address(this).balance);
+    }
+}
