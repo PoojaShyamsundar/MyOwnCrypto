@@ -1,0 +1,13 @@
+$cd blockchain/
+$ls
+chaindata	genesis.json
+$ ../geth-darwin-amd64-1.8.16-477eb093/geth --datadir=chaindata/ attach 
+
+Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.8.16-stable-477eb093/darwin-amd64/go1.11
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> miner.start(1)
+null
+> miner.stop()
