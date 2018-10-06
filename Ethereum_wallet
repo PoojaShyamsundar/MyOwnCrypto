@@ -16,3 +16,15 @@ logs:
 [2018-09-25T11:48:30.282] [INFO] updateChecker - Check for update...
 [2018-09-25T11:48:33.090] [INFO] Windows - Create primary window: main, owner: notset
 [2018-09-25T11:48:33.096] [INFO] Windows - Create primary window: splash, owner: notset
+
+[2018-09-25T11:49:01.133] [INFO] Sockets/3 - Connect to {"path":"chaindata/geth.ipc"}
+[2018-09-25T11:49:01.133] [INFO] Sockets/3 - Connected!
+[2018-09-25T11:49:04.602] [INFO] (ui: browser) - Connect to node...
+[2018-09-25T12:03:58.533] [INFO] (ui: browser) - Estimated gas:  53000 null
+[2018-09-25T12:03:58.541] [INFO] (ui: browser) - Estimated gas:  53000 null
+[2018-09-25T12:04:24.534] [INFO] (ui: browser) - Estimated gas:  53000 null
+[2018-09-25T12:04:24.543] [INFO] (ui: browser) - Estimated gas:  53000 null
+[2018-09-25T12:06:58.644] [INFO] (ui: browser) - Estimated gas:  53000 null
+[2018-09-25T12:06:58.645] [INFO] (ui: browser) - Estimated gas:  53000 null
+[2018-09-25T12:06:59.808] [INFO] (ui: browser) - Estimated gas:  53000 null
+[2018-09-25T12:07:07.132] [INFO] (ui: browser) - Estimated gas:  53000 null
