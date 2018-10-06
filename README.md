@@ -1,0 +1,2 @@
+# MyOwnCrypto
+My own cryptocurrency
